@@ -16,7 +16,7 @@ function create() {
 
   const handleClick = (e) => {
     e.preventDefault();
-    fetch('http://localhost:4000/api/v1/books', {
+    fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/books`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
