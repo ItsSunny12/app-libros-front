@@ -34,7 +34,7 @@ function create() {
   };
   return (
     <div>
-      <h1 className={styles.h1}>Crear nuevo libro</h1>
+      <h1 className={styles.h1}>Crear un nuevo libro</h1>
       <form className={styles.form}>
         <input
           className={styles.input}
